@@ -1,0 +1,45 @@
+/* ================= FOOTER ================= */
+
+.footer {
+    background: var(--sidebar-bg);
+    padding: 80px 0;
+    color: white;
+}
+
+.footer-about p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+}
+
+.footer-links,
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    margin-bottom: 14px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-contact p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media(max-width: 767px) {
+
+    .footer {
+        padding: 60px 0;
+    }
+
+    footer {
+        display: none;
+    }
+}
